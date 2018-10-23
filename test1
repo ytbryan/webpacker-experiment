@@ -1,0 +1,7 @@
+starting = Time.now 
+run "yarn add webpack-dev-server @rails/webpacker"
+run "yarn add vue vue-loader vue-template-compiler"
+run "yarn add @vue/test-utils babel-jest jest jest-serializer-vue vue-jest vueonrails"
+ending = Time.now
+answer = starting - ending
+puts "answer ~> #{answer}"
